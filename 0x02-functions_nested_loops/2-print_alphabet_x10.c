@@ -1,8 +1,6 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - main block
- * Description: Prints 10 times the alphabet
- * in lower case
  * Return: 0
  */
 void print_alphabet_x10(void)
@@ -21,4 +19,5 @@ void print_alphabet_x10(void)
 		putchar('\n');
 		i++;
 	}
+
 }
