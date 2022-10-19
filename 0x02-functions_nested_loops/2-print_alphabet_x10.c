@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * main - main block
- * Description: Prints all alphabets 10 times in lowercase
  * Return: 0
  */
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	char c;
 	int i = 0;
