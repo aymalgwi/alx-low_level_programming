@@ -5,25 +5,27 @@
  * @n : number to check
  * Return:0 or 1
  */
-int prints_sign(int n)
+
+int print_sign(int n)
 {
-	int check;
+int test;
 
-	if (n > 0)
-	{
-		check = 1;
-		_putchar('+');
-	}
-	else if (n == 0)
-	{
-		check = 0;
-		_putchar('0');
-	}
-	else
-	{
-		check = -1;
-		_putchar('-');
-	}
-
-	return (check);
+if (n > 0)
+{
+	test = 1;
+	_putchar('+');
 }
+else if (n == 0)
+{
+	test = 0;
+	_putchar('0');
+}
+else
+{
+	test = -1;
+	_putchar('-');
+}
+
+return (test);
+}
+
