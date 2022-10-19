@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - main block
  * Return: 0
@@ -17,7 +17,5 @@ void print_alphabet_x10(void)
 			c++;
 		}
 		putchar('\n');
-		i++;
 	}
-
 }
